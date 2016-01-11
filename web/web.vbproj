@@ -291,6 +291,7 @@
     <Content Include="source\repository\widgets\_logonstate\install.json" />
     <Content Include="source\repository\widgets\_startmenu\install.json" />
     <Content Include="web.config" />
+    <Content Include="README.md" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
