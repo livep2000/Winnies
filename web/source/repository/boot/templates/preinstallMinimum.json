@@ -1,0 +1,69 @@
+﻿{
+	"items": {
+		"system": {
+			"winnies": {
+				"repository": "/build/repository",
+                "removable": false
+			}
+		},
+        "apis": {
+        
+        },
+        "widgets": {
+        	"_startmenu": {
+        		"repository": "/repository"
+        	}
+        },
+        "apps": {
+        	"terminal": {
+        		"repository": "/repository"
+        	},
+            "settings": {
+            	"repository": "/repository"
+            },
+            "backup_util": {
+            	"repository": "/repository"
+            }
+        },
+        "dialogs": {
+        	"fileopen": {
+        		"repository": "/repository"
+        	}
+        },
+        "templates": {},
+        "themes": {
+        	"smoothness": {
+        		"repository": "/repository"
+        	}
+        },
+        "wallpapers": {
+        	"cubes": {
+        		"repository": "/repository"
+        	}
+        }
+	},
+    "settings": {
+    	"sound": {
+    		"enabled": true
+    	},
+        "desktop": {
+        	"theme": "smoothness",
+            "wallpaper": "cubes"
+        },
+        "general": {
+        	"repository": "http://localhost:65131/repository",
+            "system_log": true,
+            "winnies_log": true
+        },
+        "winnies": {
+        	"roles": {
+        		"0": "Guest",
+                "1": "User",
+                "2": "Moderator",
+                "65533": "Administrator",
+                "65534": "System operator",                
+                "65535": "God"
+        	}
+        }
+    }
+}

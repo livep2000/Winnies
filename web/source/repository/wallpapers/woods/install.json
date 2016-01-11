@@ -1,0 +1,18 @@
+﻿{
+    "wallpapers": {
+        "woods": {
+            "title": "Wood",
+            "descr": "Beautifull night & day.",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "wallpaper",
+            "files": {
+                "/": [ "woods.jpg" ]
+            },
+
+            "author": {
+                "name": "Unknown"
+            }
+        }
+    }
+}

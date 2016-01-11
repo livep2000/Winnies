@@ -1,0 +1,48 @@
+﻿{
+    "apps": {
+        "appstudio": {
+            "title": "Appstudio",
+            "descr": "Build apps & more",            
+            "repository": "/build/repository",
+            "usebvfs": true,
+            "files": {
+                "/": [
+                    "index.js",
+                    "template.html",
+                    "install.json"
+                ],
+                "/ace": [
+                    "ace.js",
+                    "mode-javascript.js",
+                    "mode-text.js",
+                    "mode-html.js",
+                    "mode-json.js",
+                    "mode-css.js",
+                    "ext-searchbox.js",
+                    "theme-monokai.js",
+                    "theme-github.js"
+                ]
+            },
+            "closable": true,
+            "resizable": true,
+            "icon": "ui-icon-info",
+            "category": "Development",
+            "version": "1.0.0",
+            "dim": {
+                "state": "custom",
+                "left": 250,
+                "top": 10,
+                "width": 800,
+                "height": 385
+            },
+            "extentions": [ "js","txt","json","html"],
+            "author": {
+                "author": "Imre Biacsics",
+                "vendors": "ace",
+                "info": "ace editor is absolute starring",
+                "website": "https://ace.c9.io/#nav=about",
+                "git": "https://github.com/ajaxorg/ace"
+            }
+        }
+    }
+}

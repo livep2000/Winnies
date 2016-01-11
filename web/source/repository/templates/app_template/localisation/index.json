@@ -1,0 +1,13 @@
+﻿{
+    "default": "en_EN",
+    "register": {
+    "en_EN": {
+            "native_name": "English",
+            "english_name": "English"
+        },   
+    "nl_NL": {
+            "native_name": "Nederlands",
+            "english_name": "Dutch"
+        }
+    }
+}

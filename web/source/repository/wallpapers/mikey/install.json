@@ -1,0 +1,17 @@
+﻿{
+    "wallpapers": {
+        "mikey": {
+            "title":  "Mikey",
+            "descr": "Mikey & minni mouse walking",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "wallpaper",
+            "files": {
+                "/": [ "mikey.jpg" ]
+            },
+            "author": {
+                "site": "http://intrawallpaper.com/"
+            }
+        }
+    }
+ }

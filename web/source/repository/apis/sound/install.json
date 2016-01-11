@@ -1,0 +1,21 @@
+﻿{
+    "apis": {
+        "sound": {
+            "repository": "/build/repository",
+            "type": "api",
+            "files": {
+                "/": [],
+                "/data": ["profiles.txt", "soundfontbank.bin"]
+            },
+            "title": "Soundmanager",
+            "descr": "Soundmanager with speech",
+            "version": "1.0.0",
+            "uninstalltest": "Sound will stop working",
+            "author": {
+                "name": "Imre Biacsics",
+                "info": "Mail me about the soundfontpacker.",
+                "mail": "techniek@livep2000.nl"
+            }
+        }
+    }
+}

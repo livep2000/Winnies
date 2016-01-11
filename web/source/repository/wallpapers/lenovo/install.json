@@ -1,0 +1,17 @@
+﻿{
+    "wallpapers": {
+        "lenovo": {
+            "title":  "Lenovo",
+            "descr": "Black & blue hexagonals",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "wallpaper",
+            "files": {
+                "/": [ "lenovo-wallpaper-6.jpg" ]
+            },
+            "author": {
+                "name": "Propably Lenovo electronics"
+            }
+        }
+    }
+ }

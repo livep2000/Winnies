@@ -1,0 +1,17 @@
+﻿{
+    "plugins": {
+        "applicationmanager": {
+            "repository": "/build/repository",
+            "type": "plugin",
+            "files": {
+                "/": [ "index.js", "install.json" ,"template.html"]
+            },
+            "title":  "Application Manager",
+            "descr": "UI for managing installable items",
+            "version": "1.0.0",
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+ }

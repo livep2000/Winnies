@@ -1,0 +1,18 @@
+﻿{
+    "themes": {
+        "dark-hive": {
+            "title":  "Dark Hive",
+            "descr": "Jquery ui image embedded theme.",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "theme",
+            "files": {
+                "/": [ "index.css" ]
+            },
+            "author": {
+                "name": "JQuery UI Team",
+                "site": "http://jqueryui.com/themeroller/"
+            }
+        }
+    }
+ }

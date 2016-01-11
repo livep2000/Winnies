@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{808A4266-47CF-4B4E-8919-7C793A468AFB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>web</RootNamespace>
+    <AssemblyName>web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="gruntfile.js" />
+    <Content Include="source\index.html" />
+    <Content Include="source\js\BVFS.js" />
+    <Content Include="source\js\BVFS\async.js" />
+    <Content Include="source\js\BVFS\authentication\index.js" />
+    <Content Include="source\js\BVFS\authentication\template.js" />
+    <Content Include="source\js\BVFS\index.js" />
+    <Content Include="source\js\core.js" />
+    <Content Include="source\js\core\app\index.js" />
+    <Content Include="source\js\core\index.js" />
+    <Content Include="source\js\core\register\index.js" />
+    <Content Include="source\js\core\sound\index.js" />
+    <Content Include="source\js\core\system\dialogs\index.js" />
+    <Content Include="source\js\core\system\index.js" />
+    <Content Include="source\js\core\util\asyncTask\index.js" />
+    <Content Include="source\js\core\util\asyncTask\readme.txt" />
+    <Content Include="source\js\core\util\crossIndex\index.js" />
+    <Content Include="source\js\core\util\extendedArrayBuffer\index.js" />
+    <Content Include="source\js\core\util\index.js" />
+    <Content Include="source\js\core\util\lzString\index.js" />
+    <Content Include="source\js\vendor\clock.js" />
+    <Content Include="source\js\vendor\index.js" />
+    <Content Include="source\js\vendor\jquery-contextmenu.js" />
+    <Content Include="source\js\vendor\jquery-layout.js" />
+    <Content Include="source\js\vendor\jquery-ui.min.css" />
+    <Content Include="source\js\vendor\jquery-ui.min.js" />
+    <Content Include="source\js\winnies.appDialog.js" />
+    <Content Include="source\js\winnies.dialogs.js" />
+    <Content Include="source\js\winnies.superPlugin.js" />
+    <Content Include="source\js\winnies.superwidget.js" />
+    <Content Include="source\repository\apis\sound\data\profiles.txt" />
+    <Content Include="source\repository\apps\appstudio\ace\ace.js" />
+    <Content Include="source\repository\apps\appstudio\ace\ext-searchbox.js" />
+    <Content Include="source\repository\apps\appstudio\ace\mode-css.js" />
+    <Content Include="source\repository\apps\appstudio\ace\mode-html.js" />
+    <Content Include="source\repository\apps\appstudio\ace\mode-javascript.js" />
+    <Content Include="source\repository\apps\appstudio\ace\mode-json.js" />
+    <Content Include="source\repository\apps\appstudio\ace\mode-text.js" />
+    <Content Include="source\repository\apps\appstudio\ace\theme-github.js" />
+    <Content Include="source\repository\apps\appstudio\ace\theme-monokai.js" />
+    <Content Include="source\repository\apps\appstudio\index.js" />
+    <Content Include="source\repository\apps\appstudio\template.html" />
+    <Content Include="source\repository\apps\backup_util\index.js" />
+    <Content Include="source\repository\apps\backup_util\template.html" />
+    <Content Include="source\repository\apps\calculator\index.js" />
+    <Content Include="source\repository\apps\calculator\template.html" />
+    <Content Include="source\repository\apps\filebrowser\index.js" />
+    <Content Include="source\repository\apps\filebrowser\template.html" />
+    <Content Include="source\repository\apps\info\images\forum-icon2.jpg" />
+    <Content Include="source\repository\apps\info\images\member2.jpg" />
+    <Content Include="source\repository\apps\info\images\monitor.jpg" />
+    <Content Include="source\repository\apps\info\images\privacy2.jpg" />
+    <Content Include="source\repository\apps\info\images\project2.jpg" />
+    <Content Include="source\repository\apps\info\images\rss-icon2.jpg" />
+    <Content Include="source\repository\apps\info\index.js" />
+    <Content Include="source\repository\apps\info\template.html" />
+    <Content Include="source\repository\apps\player\examples\echo-hereweare.mp4" />
+    <Content Include="source\repository\apps\player\examples\small.3gp" />
+    <Content Include="source\repository\apps\player\examples\small.mp4" />
+    <Content Include="source\repository\apps\player\files\mediaelement-and-player.min.js" />
+    <Content Include="source\repository\apps\player\files\mediaelementplayer.css" />
+    <Content Include="source\repository\apps\player\files\mejs-skins.css" />
+    <Content Include="source\repository\apps\player\files\mep-feature-loop.js" />
+    <Content Include="source\repository\apps\player\index.js" />
+    <Content Include="source\repository\apps\player\template.html" />
+    <Content Include="source\repository\apps\rss\index.js" />
+    <Content Include="source\repository\apps\rss\template.html" />
+    <Content Include="source\repository\apps\science_calc\index.js" />
+    <Content Include="source\repository\apps\science_calc\template.html" />
+    <Content Include="source\repository\apps\settings\index.js" />
+    <Content Include="source\repository\apps\settings\template.html" />
+    <Content Include="source\repository\apps\terminal\index.js" />
+    <Content Include="source\repository\apps\terminal\template.html" />
+    <Content Include="source\repository\apps\tester\images\hello.gif" />
+    <Content Include="source\repository\apps\tester\images\reddot.png" />
+    <Content Include="source\repository\apps\tester\index.js" />
+    <Content Include="source\repository\apps\tester\template.html" />
+    <Content Include="source\repository\boot\boot.js" />
+    <Content Include="source\repository\dialogs\confirmdialog\index.js" />
+    <Content Include="source\repository\dialogs\confirmdialog\template.html" />
+    <Content Include="source\repository\dialogs\filedialog\index.js" />
+    <Content Include="source\repository\dialogs\filedialog\template.html" />
+    <Content Include="source\repository\dialogs\filesave\index.js" />
+    <Content Include="source\repository\dialogs\filesave\template.html" />
+    <Content Include="source\repository\plugins\applicationmanager\index.js" />
+    <Content Include="source\repository\plugins\applicationmanager\template.html" />
+    <Content Include="source\repository\plugins\dynamictabs\index.js" />
+    <Content Include="source\repository\plugins\filemanager\index.js" />
+    <Content Include="source\repository\plugins\filemanager\template.html" />
+    <Content Include="source\repository\system\winnies\index.js" />
+    <Content Include="source\repository\system\winnies\jquery-contextmenu.css" />
+    <Content Include="source\repository\system\winnies\objectUris\async.js" />
+    <Content Include="source\repository\system\winnies\objectUris\asynctaskworker.js" />
+    <Content Include="source\repository\system\winnies\objectUris\extendedarraybuffer.js" />
+    <Content Include="source\repository\system\winnies\override.css" />
+    <Content Include="source\repository\system\winnies\treedark.css" />
+    <Content Include="source\repository\system\winnies\treedefault.css" />
+    <Content Include="source\repository\templates\app_template\index.js" />
+    <Content Include="source\repository\templates\app_template\template.html" />
+    <Content Include="source\repository\templates\core_template\index.js" />
+    <Content Include="source\repository\templates\dialog_template\index.js" />
+    <Content Include="source\repository\templates\dialog_template\template.html" />
+    <Content Include="source\repository\templates\widget_template\index.js" />
+    <Content Include="source\repository\templates\widget_template\template.html" />
+    <Content Include="source\repository\themes\black-tie\index.css" />
+    <Content Include="source\repository\themes\blitzer\index.css" />
+    <Content Include="source\repository\themes\cupertino\index.css" />
+    <Content Include="source\repository\themes\dark-hive\index.css" />
+    <Content Include="source\repository\themes\dot-luv\index.css" />
+    <Content Include="source\repository\themes\eggplant\index.css" />
+    <Content Include="source\repository\themes\excite-bike\index.css" />
+    <Content Include="source\repository\themes\flick\index.css" />
+    <Content Include="source\repository\themes\hot-sneaks\index.css" />
+    <Content Include="source\repository\themes\humanity\index.css" />
+    <Content Include="source\repository\themes\le-frog\index.css" />
+    <Content Include="source\repository\themes\mint-choc\index.css" />
+    <Content Include="source\repository\themes\overcast\index.css" />
+    <Content Include="source\repository\themes\pepper-grinder\index.css" />
+    <Content Include="source\repository\themes\redmond\index.css" />
+    <Content Include="source\repository\themes\smoothness\index.css" />
+    <Content Include="source\repository\themes\south-street\index.css" />
+    <Content Include="source\repository\themes\start\index.css" />
+    <Content Include="source\repository\themes\sunny\index.css" />
+    <Content Include="source\repository\themes\swanky-purse\index.css" />
+    <Content Include="source\repository\themes\trontastic\index.css" />
+    <Content Include="source\repository\themes\ui-darkness\index.css" />
+    <Content Include="source\repository\themes\ui-lightness\index.css" />
+    <Content Include="source\repository\themes\vader\index.css" />
+    <Content Include="source\repository\wallpapers\balls\balls.jpg" />
+    <Content Include="source\repository\wallpapers\cubes\cubes.jpg" />
+    <Content Include="source\repository\wallpapers\fantasy-planet\fantasy-planet.jpg" />
+    <Content Include="source\repository\wallpapers\lenovo\lenovo-wallpaper-6.jpg" />
+    <Content Include="source\repository\wallpapers\mikey\mikey.jpg" />
+    <Content Include="source\repository\wallpapers\space\space.jpg" />
+    <Content Include="source\repository\wallpapers\woods\woods.jpg" />
+    <Content Include="source\repository\widgets\_clock\index.js" />
+    <Content Include="source\repository\widgets\_clock\template.html" />
+    <Content Include="source\repository\widgets\_logonstate\index.js" />
+    <Content Include="source\repository\widgets\_logonstate\template.html" />
+    <Content Include="source\repository\widgets\_startmenu\index.js" />
+    <Content Include="source\repository\widgets\_startmenu\template.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="package.json" />
+    <Content Include="source\repository\apis\sound\data\soundfontbank.bin" />
+    <Content Include="source\repository\apis\sound\install.json" />
+    <Content Include="source\repository\boot\preinstalled.json" />
+    <Content Include="source\repository\boot\repositorycontent.json" />
+    <Content Include="source\repository\boot\templates\preInstallAll.json" />
+    <Content Include="source\repository\boot\templates\preinstallMinimum.json" />
+    <Content Include="source\repository\boot\templates\preinstallSome.json" />
+    <Content Include="source\repository\apps\appstudio\install.json" />
+    <Content Include="source\repository\apps\backup_util\install.json" />
+    <Content Include="source\repository\apps\calculator\install.json" />
+    <Content Include="source\repository\apps\filebrowser\install.json" />
+    <Content Include="source\repository\apps\info\install.json" />
+    <Content Include="source\repository\apps\player\examples\small.ogv" />
+    <Content Include="source\repository\apps\player\examples\small.webm" />
+    <Content Include="source\repository\apps\player\install.json" />
+    <Content Include="source\repository\apps\rss\install.json" />
+    <Content Include="source\repository\apps\science_calc\install.json" />
+    <Content Include="source\repository\apps\settings\install.json" />
+    <Content Include="source\repository\apps\terminal\install.json" />
+    <Content Include="source\repository\apps\tester\install.json" />
+    <Content Include="source\repository\dialogs\confirmdialog\install.json" />
+    <Content Include="source\repository\dialogs\filedialog\install.json" />
+    <Content Include="source\repository\dialogs\filesave\install.json" />
+    <Content Include="source\repository\plugins\applicationmanager\install.json" />
+    <Content Include="source\repository\plugins\dynamictabs\install.json" />
+    <Content Include="source\repository\plugins\filemanager\install.json" />
+    <Content Include="source\repository\system\winnies\install.json" />
+    <Content Include="source\repository\templates\app_template\install.json" />
+    <Content Include="source\repository\templates\app_template\localisation\en_EN.json" />
+    <Content Include="source\repository\templates\app_template\localisation\index.json" />
+    <Content Include="source\repository\templates\app_template\localisation\nl_NL.json" />
+    <Content Include="source\repository\templates\core_template\install.json" />
+    <Content Include="source\repository\templates\dialog_template\install.json" />
+    <Content Include="source\repository\templates\widget_template\install.json" />
+    <Content Include="source\repository\themes\black-tie\install.json" />
+    <Content Include="source\repository\themes\blitzer\install.json" />
+    <Content Include="source\repository\themes\cupertino\install.json" />
+    <Content Include="source\repository\themes\dark-hive\install.json" />
+    <Content Include="source\repository\themes\dot-luv\install.json" />
+    <Content Include="source\repository\themes\eggplant\install.json" />
+    <Content Include="source\repository\themes\excite-bike\install.json" />
+    <Content Include="source\repository\themes\flick\install.json" />
+    <Content Include="source\repository\themes\hot-sneaks\install.json" />
+    <Content Include="source\repository\themes\humanity\install.json" />
+    <Content Include="source\repository\themes\le-frog\install.json" />
+    <Content Include="source\repository\themes\mint-choc\install.json" />
+    <Content Include="source\repository\themes\overcast\install.json" />
+    <Content Include="source\repository\themes\pepper-grinder\install.json" />
+    <Content Include="source\repository\themes\redmond\install.json" />
+    <Content Include="source\repository\themes\smoothness\install.json" />
+    <Content Include="source\repository\themes\south-street\install.json" />
+    <Content Include="source\repository\themes\start\install.json" />
+    <Content Include="source\repository\themes\sunny\install.json" />
+    <Content Include="source\repository\themes\swanky-purse\install.json" />
+    <Content Include="source\repository\themes\trontastic\install.json" />
+    <Content Include="source\repository\themes\ui-darkness\install.json" />
+    <Content Include="source\repository\themes\ui-lightness\install.json" />
+    <Content Include="source\repository\themes\vader\install.json" />
+    <Content Include="source\repository\wallpapers\balls\install.json" />
+    <Content Include="source\repository\wallpapers\cubes\install.json" />
+    <Content Include="source\repository\wallpapers\fantasy-planet\install.json" />
+    <Content Include="source\repository\wallpapers\lenovo\install.json" />
+    <Content Include="source\repository\wallpapers\mikey\install.json" />
+    <Content Include="source\repository\wallpapers\space\install.json" />
+    <Content Include="source\repository\wallpapers\woods\install.json" />
+    <Content Include="source\repository\widgets\_clock\install.json" />
+    <Content Include="source\repository\widgets\_logonstate\install.json" />
+    <Content Include="source\repository\widgets\_startmenu\install.json" />
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Empty|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64517</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64517/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

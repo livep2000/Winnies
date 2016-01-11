@@ -1,0 +1,22 @@
+﻿{
+    "system": {
+        "winnies": {
+            "repository": "/build/repository",
+            "versioning": false,
+            "version": "1.0.0",
+            "type": "system",
+            "files": {
+                "/": [ "index.js", "install.json", "override.css", "treedefault.css","treedark.css", "jquery-contextmenu.css"],
+                "/objectUris": [ "asynctaskworker.js", "extendedarraybuffer.js", "async.js" ]
+            },
+            "title": "Winnies javascript OS",
+            "descr": "Operating system / website hybride.",
+            "author": {
+                "Name": "Imre Biacsics",
+                "website": "http://www.winnies.com",
+                "repository": "",
+                "licence": ""
+            }
+        }
+    } 
+}

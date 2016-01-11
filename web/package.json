@@ -1,0 +1,23 @@
+{
+    "name": "Winnies",
+    "version": "1.0.8",
+    "description": "A browser based desktop with Virtual File System",
+    "main": "/source/js/core.js",
+    "author": "Imre Biacsics",
+    "private": false, 
+    "license": "MIT License",
+    "dependencies": {
+        "jquery": "2.1.4",
+        "jquery-ui": "^1.10.5",
+        "async": "1.5.0",
+        "filer": "0.0.44",
+        "jstree": "3.2.1"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-copy": "^0.8.1",
+        "grunt-contrib-clean": "^0.4.0",
+        "grunt-browserify": "^3.8.0",
+        "grunt-contrib-uglify": "^0.9.1"
+        }
+}

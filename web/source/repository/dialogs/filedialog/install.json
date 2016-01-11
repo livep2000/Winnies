@@ -1,0 +1,25 @@
+﻿{
+    "dialogs": {
+        "filedialog": {
+            "repository": "/build/repository",
+            "type": "dialog",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "File dialog",
+            "descr": "Typical file save /open dialog.",
+            "icon": "ui-icon-info",
+            "resizable": true,
+            "version": "1.0.0",
+            "dim": {
+                "left": 650,
+                "top": 25,
+                "width": 550,
+                "height": 350
+            },
+            "author": {
+                "free": "Imre Biacsics"
+            }
+        }
+    }
+}

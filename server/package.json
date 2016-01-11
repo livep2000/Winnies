@@ -1,0 +1,10 @@
+{
+  "name": "Winnies server",
+  "version": "0.0.0",
+  "description": "for now: Empty placeholder",
+  "main": "app.js",
+  "author": {
+    "name": "Imre Biacsics",
+    "email": "techniek@livep2000.nl"
+  }
+}

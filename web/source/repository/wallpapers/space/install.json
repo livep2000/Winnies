@@ -1,0 +1,17 @@
+﻿{
+    "wallpapers": {
+        "space": {
+            "title":  "Space",
+            "descr": "Spacey",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "wallpaper",
+            "files": {
+                "/": [ "space.jpg" ]
+            },
+            "author": {
+                "site": "http://intrawallpaper.com/"
+            }
+        }
+    }
+ }

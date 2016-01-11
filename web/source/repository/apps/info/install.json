@@ -1,0 +1,30 @@
+﻿{
+    "apps": {
+        "info": {
+            "repository": "/build/repository",
+            "type": "app",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ],
+                "/images": [ "forum-icon2.jpg","member2.jpg","monitor.jpg","privacy2.jpg","project2.jpg", "rss-icon2.jpg" ]
+            },
+            "title": "Over ..",
+            "descr": "",
+            "closable": true,
+            "resizable": false,
+            "icon": "ui-icon-info",
+            "category": "Development",
+            "usebvfs": true,
+            "version": "1.0.0",
+            "dim": {
+                "state": "custom",
+                "left": 650,
+                "top": 350,
+                "width": 350,
+                "height": 385
+            },
+            "author": {
+                "free": "info"
+            }
+        }
+    }
+}

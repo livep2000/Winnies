@@ -1,0 +1,9 @@
+﻿{
+    "translator": "Imre Biacsics",
+    "website": "http://www.probleempje.nl",
+    "email": "techniek@livep2000.nl",
+    "description":  "English translation for template plugin",
+    "translations": {
+        "welcome": "Welcome"
+    }
+}

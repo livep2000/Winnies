@@ -1,0 +1,18 @@
+﻿{
+    "wallpapers": {
+        "cubes": {
+            "title":  "Cubes",
+            "descr": "Black & blue cubes",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "wallpaper",
+            "files": {
+                "/": [ "cubes.jpg" ]
+            },
+            "author": {
+                "name": "Unknown",
+                "site": "htt[://www.youwall.com"
+            }
+        }
+    }
+ }
