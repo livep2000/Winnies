@@ -4,6 +4,9 @@
 # Visual studio .config files are not relevant in this project
 *.config
 *.vbproj
+*.vb
+[Mm]y project/
+
 # User-specific files
 *.suo
 *.user
