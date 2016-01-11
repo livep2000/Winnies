@@ -1,0 +1,100 @@
+﻿{
+    "items": {
+        "system": {
+            "winnies": {
+                "repository": "/build/repository"
+            }
+        },
+        "plugins": {
+            "filemanager": {
+                "repository": "/build/repository"
+            },
+            "applicationmanager": {
+                "repository": "/build/repository"
+            },
+            "dynamictabs": {
+                "repository": "/build/repository"
+            }
+        },
+        "apis": {
+        },
+        "widgets": {
+            "_startmenu": {
+                "repository": "/build/repository"
+            },
+            "_clock": {
+                "repository": "/build/repository"
+            }
+        },
+        "apps": {
+            "tester": {
+                "repository": "/build/repository"
+            },
+            "terminal": {
+                "repository": "/build/repository"
+            },
+            "settings": {
+                "repository": "/build/repository"
+            },
+            "filebrowser": {
+                "repository": "/build/repository"
+            },
+            "backup_util": {
+                "repository": "/build/repository"
+            },
+            "appstudio": {
+                "repository": "/build/repository"
+            }
+        },
+        "dialogs": {
+            "filedialog": {
+                "repository": "/build/repository"
+            },
+            "confirmdialog": {
+                "repository": "/build/repository"
+            }
+        },
+        "templates": { },
+        "themes": {
+            "dark-hive": {
+                "repository": "/build/repository"
+            },
+            "smoothness": {
+                "repository": "/build/repository"
+            }
+        },
+        "wallpapers": {
+            "cubes": {
+                "repository": "/build/repository"
+            },
+            "lenovo": {
+                "repository": "/build/repository"
+            }
+        }
+    },
+    "settings": {
+        "sound": {
+            "enabled": false
+        },
+            "desktop": {
+                "theme": "dark-hive",
+                "wallpaper": "lenovo"
+            },
+            "general": {
+                "repository": "http://localhost:64517/build/repository",
+                "system_log": true,
+                "winnies_log": true
+            },
+            "winnies": {
+                "autorun": [ "appstudio" ],
+                "roles": {
+                    "0": "Guest",
+                    "1": "User",
+                    "2": "Moderator",
+                    "65533": "Administrator",
+                    "65534": "System operator",
+                    "65535": "God"
+                }
+            }
+        }
+}

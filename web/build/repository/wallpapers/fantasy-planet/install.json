@@ -1,0 +1,18 @@
+﻿{
+    "wallpapers": {
+        "fantasy-planet": {
+            "title":  "Fantasy Planet",
+            "descr": "Nice planetary view",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "wallpaper",
+            "files": {
+                "/": [ "fantasy-planet.jpg" ]
+            },
+            "author": {
+                "name": "Unknown",
+                "site": "http://intrawallpaper.com/"
+            }
+        }
+    }
+ }

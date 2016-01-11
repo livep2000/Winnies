@@ -1,0 +1,17 @@
+﻿{
+    "wallpapers": {
+        "balls": {
+            "title":  "Balls",
+            "descr": "Snooker balls",
+            "version": "1.0.0",
+            "repository": "/build/repository",
+            "type": "wallpaper",
+            "files": {
+                "/": [ "balls.jpg" ]
+            },
+            "author": {
+                "site": "http://intrawallpaper.com/"
+            }
+        }
+    }
+ }

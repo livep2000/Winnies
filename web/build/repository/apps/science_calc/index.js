@@ -1,0 +1,1 @@
+$.widget("apps.science_calc",$.winnies.appDialog,{version:"1.0.0",author:{about:"http://www.calculator.net/",website:"http://http://www.calculator.net/"},description:"Scientific calculator",options:{title:null,pluginType:null,id:null,selectable:!1,scrollable:!1,maximizable:!1,resizable:!1,top:150,left:150,width:290,height:510}});

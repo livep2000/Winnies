@@ -1,0 +1,90 @@
+<style>
+.calculator {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #ccc;
+	border-radius: 5px;
+	/*this is to remove space between divs that are inline-block*/
+	font-size: 0;
+}
+
+.calculator > input[type=text] {
+	width: 315Px;	
+	height: 30px;	
+	border: none;
+	background-color: #eee;	
+	text-align: right;
+	font-size: 30px;
+	padding-right: 10px;
+}
+
+.calculator .row { 
+	margin-top: 10px;
+}
+
+.calculator .key {
+	width: 78.7px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	font-size: 1rem;
+	margin-right: 5px;
+	border-radius: 5px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.calculator .key:hover{
+	cursor: pointer;
+}
+
+.key.last{
+	margin-right: 0px;
+} 
+
+.key.action {
+	background-color: #646060;
+}
+
+footer {
+	font-style: italic;
+	padding-top: 35px;
+	text-align: center;
+	font-size: 10px;
+}
+
+h1, h3, h4, h5, p {
+	margin-bottom: 22px;
+}
+
+</style>
+		<div class="calculator">
+			<input type="text" readonly>
+			<div class="row">
+				<div class="key">1</div>
+				<div class="key">2</div>
+				<div class="key">3</div>
+				<div class="key last">0</div>
+			</div>
+			<div class="row">
+				<div class="key">4</div>
+				<div class="key">5</div>
+				<div class="key">6</div>
+				<div class="key last action instant">cl</div>
+			</div>
+			<div class="row">
+				<div class="key">7</div>
+				<div class="key">8</div>
+				<div class="key">9</div>
+				<div class="key last action instant">=</div>
+			</div>
+			<div class="row">
+				<div class="key action">+</div>
+				<div class="key action">-</div>
+				<div class="key action">x</div>
+				<div class="key last action">/</div>
+			</div>
+	  </div>
+
+	

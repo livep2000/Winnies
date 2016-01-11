@@ -1,0 +1,29 @@
+﻿{
+    "apps": {
+        "player": {
+            "repository": "/build/repository",
+            "type": "app",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ],
+                "/examples": [ "small.3gp", "small.mp4", "small.ogv", "small.webm", "echo-hereweare.mp4" ],
+                "/files": [ "mediaelement-and-player.min.js", "mediaelementplayer.css", "mejs-skins.css","mep-feature-loop.js"]
+            },
+            "usebvfs": true,
+            "title": "Media player",
+            "icon": "ui-icon-alert",
+            "category": "Media",
+            "version": "1.0.0",
+            "dim": {
+                "state": "custom",
+                "top": 150,
+                "left": 150,
+                "width": 750,
+                "height": 300
+            },
+            "author": {
+                "name": "Imre Biacsics",
+                "website": "http://www.livep2000.nl/"
+            }
+        }
+    }
+}

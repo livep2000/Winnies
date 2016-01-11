@@ -1,0 +1,1 @@
+$.widget("plugins.applicationmanager",$.winnies.pluginSuperwidget,{version:"1.0.0",sh:null,options:{},_create:function(){this._super()},_trigger:function(a,b,c){this._super(a,b,c)}});

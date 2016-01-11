@@ -1,0 +1,80 @@
+﻿<style>
+._winnies_settings_tabs {width: 100%;}
+.themarolleroverflow { height: 300px;}
+._winnies_settings_wallpapers {width: 300Px;}
+._winnies_settings_themes {width: 300Px;}  
+._winnies_settings_apptypes {float: left;width:175px;}
+._winnies_settings_installtype {float: right;}
+
+.ui-layout-north {overflow: hidden;clear: both;}
+.ui-layout-resizer-north {display: none;}
+
+
+.selectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+.selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px;border-radius:5Px; }
+</style>
+ <div class="_winnies_settings_tabs">
+        <ul>
+            <li><a href="#_winnies_theme">Theme</a></li>
+            <li><a href="#_winnies_sound">Sound</a></li>
+            <li><a href="#_winnies_langauge">Langauge</a></li>
+            <li><a href="#_winnies_settings_applications">Applications</a></li>
+            <li><a href="#_winnies_privacy">Privacy</a></li>
+            <li><a href="#_winnies_general">General</a></li>
+        </ul>
+        <div id="_winnies_theme">
+            Theme: <br />
+            <form action="#">
+                <select class="_winnies_settings_themes"></select>
+            </form>
+            <br />
+            Wallpaper: <br />
+            <form action="#">
+                <select class="_winnies_settings_wallpapers"></select>
+            </form>
+        </div>
+        <div id="_winnies_sound">Not implemented yet.</div>
+        <div id="_winnies_langauge">Not implemented yet.</div>
+
+
+        <div id="_winnies_settings_applications" >
+
+
+                <div class="ui-layout-north">
+                    <form>
+                        <div id="radio" class="_winnies_settings_installtype">
+                            <input type="radio" id="_winnies_settings_installed" name="installtype" value="installed" checked="checked"><label for="_winnies_settings_installed">Installed</label>
+                            <input type="radio" id="_winnies_settings_repository" name="installtype" value="repository"><label for="_winnies_settings_repository">Repository</label>
+                        </div>
+                    </form>
+                    <form action="#">
+                        <select class="_winnies_settings_apptypes">
+                            <option value="apps" selected>Applications</option>
+                            <option value="widgets">Desktop widgets</option>
+                            <option value="dialogs">Dialogs</option>
+                            <option value="plugins">Plugins</option>
+                            <option value="templates">Templates</option>
+                            <option value="themes">Themes</option>
+                            <option value="wallpapers">Wallpapers</option>
+                            <option value="system">System</option>
+                            <option value="apis">API's</option>
+                            <option value="all">All</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="ui-layout-center">
+                    <div class="_winnies_settings_details"></div>
+                </div>
+                <div class="ui-layout-west">
+                    <ol class="_winnies_settings_itemlist selectable"></ol>
+                </div>
+
+
+        </div>
+
+
+        <div id="_winnies_privacy">
+            <button class="_winnies_settings_wipebutton">Wipe all data</button>
+        </div>
+        <div id="_winnies_general">Not implemented yet.</div>
+    </div>

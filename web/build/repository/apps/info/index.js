@@ -1,0 +1,1 @@
+$.widget("apps.info",$.winnies.appDialog,{version:"1.0.0",_init:function(){this._super()},_create:function(){this._super()},_setOption:function(a,b){this._super(a,b)},_setOptions:function(a){this._super(a)},_destroy:function(){this._super()},_trigger:function(a,b,c){"close"==a&&this._destroy(),this._super(a,b,c)}});

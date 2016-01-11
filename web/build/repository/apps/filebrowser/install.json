@@ -1,0 +1,27 @@
+﻿{
+    "apps": {
+        "filebrowser": {
+            "repository": "/build/repository",
+            "type": "app",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "File browser",
+            "descr": "Browse files and folders.",
+            "closable": true,
+            "icon": "ui-icon-person",
+            "category": "Management",
+            "version": "2.0.0",
+            "dim": {
+                "state": "custom",
+                "left": 280,
+                "top": 10,
+                "width": 650,
+                "height": 450
+            },
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+"profiles": 
+    {
+    "stitched":
+	   {
+	   "endDelay"	    : -0.8
+	   },
+    "first":
+	   {
+	   "playbackRate"  : 1.1
+	   },
+    "last":
+	   {
+	   "endDelay"	    : 0.3
+	   },
+    "wordEnd":
+	   {
+	   "endDelay"	    : 0.3
+	   },
+    "anyother":
+	   {
+	   "playbackRate"  : 0.95,
+	   "gain"		    : 1,
+	   "endDelay"	    : 0.25,
+	   "reverb"	    : 2
+	   }	
+    },
+"waveData":
+    {
+    "dataSize"		    : 0,									
+    "numChannels"	    : 1,
+    "sampleRate"	    : 11025,
+    "bytesPerSample"    : 2
+    }
+} 

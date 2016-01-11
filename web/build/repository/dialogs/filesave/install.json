@@ -1,0 +1,24 @@
+﻿{
+    "dialogs": {
+        "filesave": {
+            "repository": "/build/repository",
+            "type": "dialog",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "Save file",
+            "descr": "Typical file save dialog.",
+            "icon": "ui-icon-info",
+            "version": "1.0.0",
+            "dim": {
+                "left": 650,
+                "top": 350,
+                "width": 350,
+                "height": 385
+            },
+            "author": {
+                "free": "Imre Biacsics"
+            }
+        }
+    }
+}

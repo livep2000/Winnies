@@ -1,0 +1,27 @@
+﻿{
+    "apps": {
+        "tester": {
+            "repository": "/build/repository",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ],
+                "/images": ["hello.gif","reddot.png"]
+            },
+            "title": "Test application..",
+            "descr": "",
+            "closable": true,
+            "icon": "ui-icon-info",
+            "category": "Development",
+            "version": "1.0.0",
+            "dim": {
+                "state": "custom",
+                "left": 650,
+                "top": 100,
+                "width": 400,
+                "height": 450
+            },
+            "author": {
+                "free": "info"
+            }
+        }
+    }
+}

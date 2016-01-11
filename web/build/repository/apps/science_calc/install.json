@@ -1,0 +1,26 @@
+﻿{
+    "apps": {
+        "science_calc": {
+            "repository": "/build/repository",
+            "type": "app",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "Science calculator",
+            "icon": "ui-icon-person",
+            "category": "Utils",
+            "version": "1.0.0",
+            "dim": {
+                "state": "custom",
+	            "top": 150,
+	            "left": 150,
+	            "width": 290,
+	            "height": 530
+            },
+            "author": {
+                "about": "http://www.calculator.net/",
+                "website": "http://http://www.calculator.net/"
+            }
+        }
+    }
+}

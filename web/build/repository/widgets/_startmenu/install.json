@@ -1,0 +1,24 @@
+﻿{
+    "widgets": {
+        "_startmenu": {
+            "repository": "/build/repository",
+            "type": "widget",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "descr": "Just winnies toolbar",
+            "title": "Startmenu",
+            "dim": {
+                "width": 250,
+                "height": 26,
+                "left": 5,
+                "top": 5
+            },
+            "uninstalltext":  "Be aware to first install another startmenu",
+            "version": "1.0.0",
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+}

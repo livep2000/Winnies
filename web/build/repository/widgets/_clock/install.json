@@ -1,0 +1,23 @@
+﻿{
+    "widgets": {
+        "_clock": {
+            "repository": "/build/repository",
+            "type": "widget",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title":  "Clock",
+            "descr": "Desktop clock / date / time widget",
+	        "dim": {
+			    "width": 120,
+			    "height": 120,
+			    "left": 350,
+			    "top": 10
+		    },
+            "version": "1.0.0",
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+ }

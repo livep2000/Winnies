@@ -1,0 +1,26 @@
+﻿{
+    "apps": {
+        "rss": {
+            "repository": "/build/repository",
+            "type": "app",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "RSS reader",
+              "icon": "ui-icon-alert",
+            "category": "Media",
+            "version": "1.0.0",
+            "dim": {
+                "state": "custom",
+	            "top": 150,
+	            "left": 150,
+	            "width": 290,
+	            "height": 530
+            },
+        "author": {
+                "name": "Imre Biacsics",
+                "website": "http://www.livep2000.nl/"
+            }
+        }
+    }
+}

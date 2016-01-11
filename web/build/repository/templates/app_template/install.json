@@ -1,0 +1,33 @@
+﻿{
+    "templates": {
+        "app_template": {
+            "repository": "/build/repository",
+            "type": "app",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ],
+                "/localisation": [ "en_EN.json", "index.json", "nl_NL.json" ],
+                "/data": [ ]
+            },
+            "title": "Application template",
+            "descr": "A bare template for making new apps.",
+            "closable": true,
+            "minimumRole": 2,
+            "icon": "ui-icon-star",
+            "haveSettings": true,
+            "version": "1.0.0",
+            "category": "Overig",
+            "dim": {
+                "state": "custom",
+                "left": 2500,
+                "top": 250,
+                "width": 150,
+                "height": 150
+            },
+            "author": {
+                "name": "Imre Biacsics",
+                "free": "info"
+            }
+        }
+    }
+}
+

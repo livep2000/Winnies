@@ -1,0 +1,23 @@
+﻿{
+    "widgets": {
+        "_logonstate": {
+            "repository": "/build/repository",
+            "type": "widget",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "descr": "Helpfull logon / logoff widget",
+            "title": "Connection state",
+	        "dim": {
+			    "width": 200,
+			    "height": 80,
+			    "left": 485,
+			    "top": 10
+		    },
+          "version": "1.0.0",
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+}

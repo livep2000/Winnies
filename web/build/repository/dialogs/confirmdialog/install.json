@@ -1,0 +1,25 @@
+﻿{
+    "dialogs": {
+        "confirmdialog": {
+            "repository": "/build/repository",
+            "type": "dialog",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "Confirm dialog",
+            "descr": "Simple confirm dialog",
+            "icon": "ui-icon-info",
+            "resizable": false,
+            "version": "1.0.0",
+            "dim": {
+                "left": 650,
+                "top": 25,
+                "width": 250,
+                "height": 100
+            },
+            "author": {
+                "free": "Imre Biacsics"
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+﻿{
+    "plugins": {
+        "filemanager": {
+            "repository": "/build/repository",
+            "type": "plugin",
+            "files": {
+                "/": [ "index.js", "install.json", "template.html" ]
+            },
+            "title":  "File Manager plugin",
+            "descr": "UI for managing the file system.",
+            "version": "1.0.2",
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+ }

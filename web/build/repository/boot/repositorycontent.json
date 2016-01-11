@@ -1,0 +1,523 @@
+﻿{
+    "items": {
+        "apis": {
+            "sound": {
+                "title": "Soundmanager",
+                "descr": "Soundmanager with speech",
+                "version": "1.0.0",
+                "source": "buildin",
+                "author": {
+                    "name": "Imre Biacsics",
+                    "info": "Mail me about the soundfontpacker.",
+                    "mail": "techniek@livep2000.nl"
+                }
+            }
+        },
+        "plugins": {
+            "filemanager": {
+                "title": "File Manager",
+                "descr": "File manager plugin",
+                "icon": "ui-icon-info",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "dynamictabs": {
+                "title": "Dynamic tabs",
+                "descr": "Jquery ui-tabs extended",
+                "icon": "ui-icon-info",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "applicationmanager": {
+                "title": "Application manager",
+                "descr": "UI for managing installable items.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            }
+        },
+        "apps": {
+            "backup_util": {
+                "title": "Backup utility",
+                "descr": "Download a backup file to restore later",
+                "minimumRole": 0,
+                "icon": "ui-icon-star",
+                "version": "1.0.0",
+                "category": "Management",
+                "author": {
+                    "name": "Imre Biacsics",
+                    "free": "info"
+                }
+            },
+            "calculator": {
+                "title": "Simple calculator",
+                "descr": "Simple to use.",
+                "icon": "ui-icon-info",
+                "category": "Utils",
+                "version": "1.0.0",
+                "author": {
+                    "free": "info"
+                }
+            },
+            "filebrowser": {
+                "title": "File browser",
+                "descr": "Browse files and folders.",
+                "icon": "ui-icon-person",
+                "category": "Management",
+                "version": "2.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "info": {
+                "title": "About winnies ..",
+                "descr": "Informational about box",
+                "icon": "ui-icon-info",
+                "category": "Utils",
+                "version": "1.0.0",
+                "author": {
+                    "free": "info"
+                }
+            },
+            "player": {
+                "title": "Media player",
+                "icon": "ui-icon-alert",
+                "category": "Media",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics",
+                    "website": "http://www.winnies.com/"
+                }
+            },
+            "rss": {
+                "title": "RSS reader",
+                "descr": "Read any RSS feed.",
+                "icon": "ui-icon-alert",
+                "category": "Media",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics",
+                    "website": "http://www.livep2000.nl/"
+                }
+            },
+            "science_calc": {
+                "title": "Science calculator",
+                "descr": "Math & science calculator",
+                "icon": "ui-icon-person",
+                "category": "Utils",
+                "version": "1.0.0", 
+                "author": {
+                    "about": "http://www.calculator.net/",
+                    "website": "http://http://www.calculator.net/"
+                }
+            },
+            "settings": {
+                "title": "Settings",
+                "descr": "Changes winnies settings",
+                "icon": "ui-icon-person",
+                "category": "Management",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics",
+                    "website": "http://www.winnies.com"
+                }
+            },
+            "terminal": {
+                "title": "File System Terminal",
+                "descr": "Browser Virtual File System Terminal.",
+                "icon": "ui-icon-person",
+                "category": "Management",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "appstudio": {
+                "title": "Appstudio",
+                "descr": "Build apps & more",
+                "icon": "ui-icon-info",
+                "category": "Development",
+                "version": "2.0.0",
+                "author": {
+                    "name": "Imre Biacsics",
+                    "vendors": "ACE editor",
+                    "info": "ACE editor is absolute starring",
+                    "website": "https://ace.c9.io/#nav=about",
+                    "git": "https://github.com/ajaxorg/ace"
+                }
+            },
+            "tester": {
+                "title": "Test application..",
+                "descr": "Just for winnies developement, remove..",
+                "icon": "ui-icon-info",
+                "category": "Development",
+                "version": "1.0.0",
+                "author": {
+                    "free": "info"
+                }
+            }
+        },
+        "dialogs": {
+            "filedialog": {
+                "title": "File dialog",
+                "descr": "Typical file save/ open dialog.",
+                "icon": "ui-icon-info",
+                "version": "1.0.0",
+                "author": {
+                    "free": "Imre Biacsics"
+                }
+            },
+            "confirmdialog": {
+                "title": "Confirm",
+                "descr": "Simple confirm dialog.",
+                "icon": "ui-icon-info",
+                "version": "1.0.0",
+                "author": {
+                    "free": "Imre Biacsics"
+                }
+            }
+        },
+        "system": {
+            "winnies": {
+                "title": "Winnies javascript OS",
+                "descr": "Operating system / website hybride.",
+                "author": {
+                    "Name": "Imre Biacsics",
+                    "website": "http://www.winnies.com",
+                    "repository": "",
+                    "licence": ""
+                }
+            }
+        },
+        "templates": {
+            "app_template": {
+                "title": "App template",
+                "descr": "A bare template for making new apps.",
+                "icon": "ui-icon-star",
+                "version": "1.0.0",
+                "category": "Development",
+                "author": {
+                    "name": "Imre Biacsics",
+                    "free": "info"
+                }
+            },
+            "core_template": {
+                "title": "Core api extention",
+                "descr": "Template for extending base functions",
+                "icon": "ui-icon-info",
+                "version": "1.0.0",
+                "category": "Development",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "dialog_template": {
+                "title": "Dialog template",
+                "descr": "Template for building dialogs",
+                "icon": "ui-icon-info",
+                "version": "1.0.0",
+                "category": "Development",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "widget_template": {
+                "title": "Widget template",
+                "category": "Development",
+                "descr": "Desktop clock / date / time widget",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            }
+        },
+        "widgets": {
+            "_clock": {
+                "title": "Clock widget",
+                "descr": "Desktop clock / date / time widget",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "_logonstate": {
+                "title": "Logon button",
+                "descr": "Helpfull logon / logoff widget",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            },
+            "_startmenu": {
+                "title": "Start menu",
+                "descr": "Just a startmenu",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Imre Biacsics"
+                }
+            }
+        },
+        "themes": {
+            "black-tie": {
+                "title": "Black tie",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+
+            "blitzer": {
+                "title": "Blitzer",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "cupertino": {
+                "title": "Cupertino",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "dark-hive": {
+                "title": "BDark Hive",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+
+            "dot-luv": {
+                "title": "Dot Luv",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "eggplant": {
+                "title": "Eggplant",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "excite-bike": {
+                "title": "Excite Bike",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "flick": {
+                "title": "Flick",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "hot-sneaks": {
+                "title": "Hot Sneaks",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "humanity": {
+                "title": "Humanity",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "le-frog": {
+                "title": "Le Frog",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "mint-choc": {
+                "title": "Mint Choc",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "overcast": {
+                "title": "Overcats",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "pepper-grinder": {
+                "title": "Pepper Grinder",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "redmond": {
+                "title": "Redmond",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "smoothness": {
+                "title": "Smoothness",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "south-street": {
+                "title": "South Street",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "start": {
+                "title": "Start",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "sunny": {
+                "title": "Sunny",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "swanky-purse": {
+                "title": "Swanky Purse",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "trontastic": {
+                "title": "Trontastic",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "ui-darkness": {
+                "title": "UI Darkness",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "ui-lightness": {
+                "title": "UI Lightness",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            },
+            "vader": {
+                "title": "Vader",
+                "descr": "Jquery ui image embedded theme.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "JQuery UI Team",
+                    "site": "http://jqueryui.com/themeroller/"
+                }
+            }
+        },
+        "wallpapers": {
+            "cubes": {
+                "title": "Cubes",
+                "descr": "Black & blue cubes",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Unknown",
+                    "site": "htt[://www.youwall.com"
+                }
+            },
+            "lenovo": {
+                "title": "Lenovo",
+                "descr": "Black & blue hexagonals",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Propably Lenovo electronics"
+                }
+            },
+            "woods": {
+                "title": "Wood",
+                "descr": "Beautifull night & day.",
+                "version": "1.0.0",
+                "author": {
+                    "name": "Unknown"
+                }
+            }
+        },
+        "langauges": { }
+    },
+        "metaData": {
+            "name": "Winnies.com application repository",
+            "type": "web",
+            "owner": "Imre Biacsics",
+            "email": "techniek@livep2000.nl",
+            "url": "http://www.winnies.com"
+        }
+    }
+    
+

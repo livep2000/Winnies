@@ -1,0 +1,26 @@
+﻿{
+    "apps": {
+        "terminal": {
+            "repository": "/build/repository",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "File System Terminal",
+            "descr": "Browser Virtual File System Terminal.",
+            "closable": true,
+            "icon": "ui-icon-person",
+            "category": "Management",
+            "version": "1.0.0",
+            "dim": {
+                "state": "custom",
+                "left": 500,
+                "top": 500,
+                "width": 450,
+                "height": 450
+            },
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+}

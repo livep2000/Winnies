@@ -1,0 +1,191 @@
+﻿{
+    "items": {
+        "system": {
+            "winnies": {
+                "repository": "/build/repository",
+                "removable": false
+            }
+        },
+        "apis": {
+            "sound": {
+                "repository": "/build/repository",
+                "removable": false
+            }
+        },
+        "widgets": {
+            "_startmenu": {
+                "repository": "/repository"
+            },
+            "_logonstate": {
+                "repository": "/repository"
+            },
+            "_clock": {
+                "repository": "/repository"
+            }
+        },
+        "apps": {
+            "science_calc": {
+                "repository": "/repository"
+            },
+            "file_manager": {
+                "repository": "/repository"
+            },
+            "terminal": {
+                "repository": "/repository"
+            },
+            "editor": {
+                "repository": "/repository"
+            },
+            "settings": {
+                "repository": "/repository"
+            },
+            "rss": {
+                "repository": "/repository"
+            },
+            "info": {
+                "repository": "/repository"
+            },
+            "player": {
+                "repository": "/repository"
+            },
+            "calculator": {
+                "repository": "/repository"
+            },
+            "tester": {
+                "repository": "/repository"
+            },
+            "backup_util": {
+                "repository": "/repository"
+            }
+        },
+        "dialogs": {
+            "fileopen": {
+                "repository": "/repository"
+            }
+        },
+        "templates": {
+            "app_template": {
+                "repository": "/repository"
+            },
+            "core_template": {
+                "repository": "/repository"
+            },
+            "dialog_template": {
+                "repository": "/repository"
+            },
+            "widget_template": {
+                "repository": "/repository"
+            }
+        },
+        "themes": {
+            "black-tie": {
+                "repository": "/repository"
+            },
+            "blitzer": {
+                "repository": "/repository"
+            },
+            "cupertino": {
+                "repository": "/repository"
+            },
+            "dark-hive": {
+                "repository": "/repository"
+            },
+
+            "dot-luv": {
+                "repository": "/repository"
+            },
+            "eggplant": {
+                "repository": "/repository"
+            },
+            "excite-bike": {
+                "repository": "/repository"
+            },
+            "flick": {
+                "repository": "/repository"
+            },
+            "hot-sneaks": {
+                "repository": "/repository"
+            },
+            "humanity": {
+                "repository": "/repository"
+            },
+            "le-frog": {
+                "repository": "/repository"
+            },
+            "mint-choc": {
+                "repository": "/repository"
+            },
+            "overcast": {
+                "repository": "/repository"
+            },
+            "pepper-grinder": {
+                "repository": "/repository"
+            },
+            "redmond": {
+                "repository": "/repository"
+            },
+            "smoothness": {
+                "repository": "/repository"
+            },
+            "south-street": {
+                "repository": "/repository"
+            },
+            "start": {
+                "repository": "/repository"
+            },
+            "sunny": {
+                "repository": "/repository"
+            },
+            "swanky-purse": {
+                "repository": "/repository"
+            },
+            "trontastic": {
+                "repository": "/repository"
+            },
+            "ui-darkness": {
+                "repository": "/repository"
+            },
+            "ui-lightness": {
+                "repository": "/repository"
+            },
+            "vader": {
+                "repository": "/repository"
+            }
+        },
+        "wallpapers": {
+            "cubes": {
+                "repository": "/repository"
+            },
+            "lenovo": {
+                "repository": "/repository"
+            },
+            "woods": {
+                "repository": "/repository"
+            }
+        }
+    },
+    "settings": {
+        "sound": {
+            "enabled": true
+        },
+        "desktop": {
+            "theme": "smoothness",
+            "wallpaper": "cubes"
+        },
+        "general": {
+            "repository": "http://localhost:65131/repository",
+            "system_log": true,
+            "winnies_log": true
+        },
+        "winnies": {
+            "roles": {
+                "0": "Guest",
+                "1": "User",
+                "2": "Moderator",
+                "65533": "Administrator",
+                "65534": "System operator",                
+                "65535": "God"
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+module.exports=function(){var a={dolog:!0,imports:function(a,b){this[b]=a,dialogs.logging(b+" imported.")},init:function(){},customFunction:function(){},logging:function(b){a.doLog&&console.log("core.template :: "+b)}};return a.init(),a}();

@@ -1,0 +1,28 @@
+﻿{
+    "apps": {
+        "settings": {
+            "repository": "/build/repository",
+            "type": "app",
+            "files": {
+                "/": [ "index.js", "template.html", "install.json" ]
+            },
+            "title": "Settings",
+            "descr":  "Changes winnies settings",
+            "icon": "ui-icon-person",
+            "category": "Management",
+            "version": "1.0.0",
+            "resizable": true,
+            "dim": {
+                "state": "custom",
+	            "top": 250,
+	            "left": 250,
+	            "width": 630,
+	            "height": 450
+            },
+            "author": {
+                "name": "Imre Biacsics",
+                "website": "http://www.winnies.com"
+            }
+        }
+    }
+}

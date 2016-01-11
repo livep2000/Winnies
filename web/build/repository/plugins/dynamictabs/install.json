@@ -1,0 +1,17 @@
+﻿{
+    "plugins": {
+        "dynamictabs": {
+            "repository": "/build/repository",
+            "type": "plugin",
+            "files": {
+                "/": [ "index.js", "install.json" ]
+            },
+            "title":  "Dynamic tabs",
+            "descr": "Jquery ui-tabs extended.",
+            "version": "1.0.0",
+            "author": {
+                "name": "Imre Biacsics"
+            }
+        }
+    }
+ }
